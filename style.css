@@ -32,7 +32,6 @@ p {
   left: 0;
   right: 0;
   background: rgba(255, 255, 255, 0.8);
-  display: none;
 }
 
 .loader img {
@@ -45,10 +44,11 @@ p {
 
 .image-container {
   margin: 10px 30px;
+  text-align: center;
 }
 
 .image-container img {
-  width: 100%;
+  max-width: 100%;
   margin-top: 5px;
 }
 
